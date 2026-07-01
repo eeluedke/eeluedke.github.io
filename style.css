@@ -8,8 +8,9 @@
     --primary-color: #5F9EA0;
     --secondary-color: #9999ff;
     --color-1: #F9F6F3;
-    --color-2: #F3F7F9;
-    --color-3: #F6F3F9;
+    --color-2: #d9e6ec;
+    --color-3: #e6eff3;
+    --color-4: #ccdde5;
 }
 
 * {
@@ -25,8 +26,8 @@ html {
 
 body {
     padding: 1em;
-    /*background-color: var(--base-color);*/
-    background-image: url('images/baker.JPG');
+    background-color: var(--base-color);*/
+    /*background-image: url('images/baker.JPG');*/
     background-size: auto;
 }
 
@@ -128,6 +129,10 @@ section p {
 
 section#my-work {
     background-color: var(--color-3);
+}
+
+section#faq {
+    background-color: var(--color-4);
 }
 
 .grid-container {
