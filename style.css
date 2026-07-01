@@ -118,6 +118,10 @@ section {
     text-align: center;
 }
 
+section p {
+    text-align: left;
+}
+
 h2 {
     font-size: 2rem;
 }
